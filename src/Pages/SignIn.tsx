@@ -1,4 +1,4 @@
-import FormLayout from "@/Layouts/FormLayout";
+import FormLayout from "@/layouts/FormLayout";
 
 function SignIn() {
   return (
