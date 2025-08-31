@@ -1,7 +1,11 @@
+import MainLayout from "@/Layouts/MainLayout";
+
 function Resume() {
   return (
-    <div>Resume</div>
-  )
+    <MainLayout>
+      <div>Resume</div>
+    </MainLayout>
+  );
 }
 
-export default Resume
+export default Resume;

@@ -1,7 +1,11 @@
+import FormLayout from "@/Layouts/FormLayout";
+
 function SignUp() {
   return (
-    <div>SignUp</div>
-  )
+    <FormLayout>
+      <div>SignUp</div>
+    </FormLayout>
+  );
 }
 
-export default SignUp
+export default SignUp;

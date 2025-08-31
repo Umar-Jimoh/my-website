@@ -1,7 +1,11 @@
+import MainLayout from "@/Layouts/MainLayout";
+
 function Blogs() {
   return (
-    <div>Blogs</div>
-  )
+    <MainLayout>
+      <div>Blogs</div>
+    </MainLayout>
+  );
 }
 
-export default Blogs
+export default Blogs;
