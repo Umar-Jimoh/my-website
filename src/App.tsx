@@ -7,7 +7,7 @@ import {
   Contact,
   SignIn,
   SignUp,
-} from "./Pages";
+} from "./pages";
 
 function App() {
   return (
