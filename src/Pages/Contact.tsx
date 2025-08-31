@@ -1,7 +1,11 @@
+import FormLayout from "@/Layouts/FormLayout";
+
 function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <FormLayout>
+      <div>Contact</div>
+    </FormLayout>
+  );
 }
 
-export default Contact
+export default Contact;

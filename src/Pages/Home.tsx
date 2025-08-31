@@ -1,7 +1,11 @@
+import MainLayout from "@/Layouts/MainLayout";
+
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <MainLayout>
+      <div>Home</div>
+    </MainLayout>
+  );
 }
 
-export default Home
+export default Home;
