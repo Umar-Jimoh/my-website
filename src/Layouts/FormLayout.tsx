@@ -1,3 +1,4 @@
+import Footer from "@/components/shared/Footer";
 import Navigation from "@/components/shared/Navigation";
 
 interface MainLayoutProps {
@@ -10,6 +11,7 @@ function FormLayout({ children, isLogo = true }: MainLayoutProps) {
     <div className="min-h-screen">
       <Navigation isLogo={isLogo} />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }
