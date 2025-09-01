@@ -2,7 +2,7 @@ import MainLayout from "@/layouts/MainLayout";
 
 function Home() {
   return (
-    <MainLayout>
+    <MainLayout isLogo={false}>
       <div>Home</div>
     </MainLayout>
   );
