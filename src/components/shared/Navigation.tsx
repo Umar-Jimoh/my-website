@@ -1,6 +1,7 @@
 import { navItems } from "@/lib/constants";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import ThemeToggle from "../ThemeToggle";
 
 interface NavigationProps {
   isLogo: boolean;
@@ -36,6 +37,7 @@ function Navigation({ isLogo }: NavigationProps) {
                 {item.name}
               </NavLink>
             ))}
+            <ThemeToggle />
           </div>
         </div>
       </div>
