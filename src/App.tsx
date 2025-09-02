@@ -7,6 +7,8 @@ import {
   Contact,
   SignIn,
   SignUp,
+  Packages,
+  ProjectDetails,
 } from "./pages";
 import { ThemeProvider } from "./components/providers/theme-provider";
 
@@ -17,6 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/packages" element={<Packages />} />
+          <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/blogs" element={<Blogs />}>
             <Route path=":id" element={<BlogDetails />} />
           </Route>

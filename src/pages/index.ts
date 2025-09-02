@@ -5,5 +5,17 @@ import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import Packages from "./Packages";
+import ProjectDetails from "./ProjectDetails";
 
-export { Home, Resume, Blogs, BlogDetails, Contact, SignIn, SignUp };
+export {
+  Home,
+  Resume,
+  Blogs,
+  BlogDetails,
+  Contact,
+  SignIn,
+  SignUp,
+  Packages,
+  ProjectDetails,
+};
