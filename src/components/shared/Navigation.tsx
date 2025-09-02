@@ -16,7 +16,7 @@ function Navigation({ isLogo }: NavigationProps) {
           <div>
             {isLogo && (
               <Link to={"/"}>
-                <h1 className="text-xl uppercase font-bold text-foreground font-serif">
+                <h1 className="text-xl uppercase font-bold text-foreground">
                   Umar Jimoh
                 </h1>
               </Link>
