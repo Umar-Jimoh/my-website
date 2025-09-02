@@ -34,7 +34,7 @@ function ExperienceItem({ items }: ExperienceProps) {
             {item.details.map((detail, index) => (
               <span
                 key={index}
-                className="border border-b-0 border-l-0 border-r-0 border-t-2 py-4">
+                className="border border-b-0 border-l-0 border-r-0 border-t-2 py-4 text-muted-foreground">
                 {detail}
                 <br />
               </span>

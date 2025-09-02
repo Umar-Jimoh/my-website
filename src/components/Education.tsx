@@ -16,10 +16,10 @@ function Education() {
         </div>
       </div>
       <div className="grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr_3fr] gap-4 text-balance mt-4">
-        <h4 className="border-t-2 py-4">
+        <p className="border-t-2 py-4 text-muted-foreground">
           Relevant Coursework: Data Structures and Algorithms, Database
           Management Systems, Web Development, Software Engineering.
-        </h4>
+        </p>
       </div>
     </section>
   );
