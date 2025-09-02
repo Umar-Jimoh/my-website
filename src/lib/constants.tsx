@@ -18,6 +18,10 @@ export const navItems = [
     href: "/resume",
   },
   {
+    name: "Packages",
+    href: "/packages",
+  },
+  {
     name: "Blogs",
     href: "/blogs",
   },
