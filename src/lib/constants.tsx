@@ -115,3 +115,20 @@ export const experience = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    subtitle: "Featured Project",
+    title: "E-commerce Platform",
+    details:
+      "Developed a scalable e-commerce platform with features like product catalog, shopping cart, order management, and payment gateway integration.",
+    link: "https://umarjimoh.com/projects",
+  },
+  {
+    subtitle: "Personal Project",
+    title: "Blog Application",
+    details:
+      "Created a personal blog application with user authentication, post management, commenting, and tagging functionalities.",
+    link: "https://umarjimoh.com/projects",
+  },
+];
