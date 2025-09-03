@@ -9,7 +9,7 @@ function Education() {
         <div className="flex flex-col">
           <h3 className="text-lg">Bachelor of Science in Computer Science</h3>
           <p className="text-muted-foreground text-sm">
-            Ladoke Akintola University of Technology |{" "}
+            Ladoke Akintola University of Technology <br/>
             <time dateTime="2019">2019</time> –{" "}
             <time dateTime="2024">2024</time>
           </p>
