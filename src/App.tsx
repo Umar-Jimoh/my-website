@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import {
   Home,
   Resume,
@@ -9,6 +9,7 @@ import {
   SignUp,
   Packages,
   ProjectDetails,
+  NotFound,
 } from "./pages";
 import { ThemeProvider } from "./components/providers/theme-provider";
 
@@ -27,6 +28,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
+
+          <Route path="/not-found" element={<NotFound />} />
+          <Route path="*" element={<Navigate to="/not-found"/>} />
         </Routes>
       </Router>
     </ThemeProvider>
