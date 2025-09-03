@@ -7,6 +7,7 @@ import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Packages from "./Packages";
 import ProjectDetails from "./ProjectDetails";
+import NotFound from "./NotFound";
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   SignUp,
   Packages,
   ProjectDetails,
+  NotFound
 };
