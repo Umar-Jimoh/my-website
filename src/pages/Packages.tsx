@@ -1,9 +1,10 @@
 import MainLayout from "@/layouts/MainLayout";
+import ComingSoon from "../components/ComingSoon";
 
 function Packages() {
   return (
     <MainLayout>
-      <div>Packages</div>
+      <ComingSoon />
     </MainLayout>
   );
 }
