@@ -4,8 +4,8 @@ import SkillBadge from "./SkillBadge";
 function Skills() {
   return (
     <section>
-      <h2 className="text-xl text-foreground font-bold mb-2">Skills</h2>
-      <div className="flex flex-wrap gap-2">
+      <h2>Skills</h2>
+      <div className="flex flex-wrap gap-2 py-4">
         {skillItems.map(({ id, icon, label }) => (
           <SkillBadge key={id} icon={icon} label={label} />
         ))}

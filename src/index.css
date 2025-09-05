@@ -115,6 +115,23 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
+
+    code, pre {
+    @apply font-mono;
+  }
+
+  h2 {
+    @apply text-2xl text-foreground font-bold mb-2;
+  }
+
+  p {
+    @apply py-4;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Roboto Mono", monospace;
 }
