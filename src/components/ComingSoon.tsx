@@ -5,7 +5,7 @@ function ComingSoon() {
         Coming Soon
       </h1>
       <p className="text-muted-foreground max-w-80 md:max-w-96">
-        This Page is under construction Expect to see a showcase of my work,
+        This Page is under construction. Expect to see a showcase of my work,
         skills, and experience in software development
       </p>
     </div>
