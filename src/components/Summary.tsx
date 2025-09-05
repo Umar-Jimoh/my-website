@@ -1,7 +1,7 @@
 function Summary() {
   return (
     <section>
-      <h2 className="text-xl text-foreground font-bold mb-2">Summary</h2>
+      <h2>Summary</h2>
       <p className="text-foreground">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
         dicta veritatis ipsam? Ab non asperiores iure vitae, illum enim nesciunt

@@ -4,10 +4,12 @@ import ProjectItem from "./ProjectItem";
 function Projects() {
   return (
     <section>
-      <h2 className="text-xl text-foreground font-bold mb-2">Projects</h2>
-      {projects.map((project) => (
-        <ProjectItem item={project}/>
-      ))}
+      <h2>Projects</h2>
+      <div className="my-4">
+        {projects.map((project) => (
+          <ProjectItem item={project} />
+        ))}
+      </div>
     </section>
   );
 }
