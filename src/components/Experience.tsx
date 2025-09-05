@@ -5,7 +5,7 @@ import { Accordion } from "./ui/accordion";
 function Experience() {
   return (
     <section>
-      <h2 className="text-xl text-foreground font-bold mb-2">Experience</h2>
+      <h2>Experience</h2>
       <Accordion
         type="single"
         collapsible

@@ -10,7 +10,7 @@ function Home() {
         <h1 className="text-4xl md:text-5xl uppercase font-bold mt-4">
           I'm Umar Jimoh
         </h1>
-        <p className="text-md md:text-lg mt-5">
+        <p className="text-md md:text-lg mt-4">
           Software Developer based in Nigeria, Abuja
         </p>
       </div>
