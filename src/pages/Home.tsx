@@ -1,6 +1,18 @@
 import MainLayout from "@/layouts/MainLayout";
+import { useEffect, useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
+  const [cursorStyle, setCursorStyle] = useState<string>("_");
+  const text = "Software Developer based in Nigeria, Abuja";
+  const typeSpeed = 80;
+
+  useEffect(() => {
+    const typingTime = text.length * typeSpeed;
+    const timer = setTimeout(() => setCursorStyle("|"), typingTime + 500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <MainLayout isLogo={false}>
       <div className="flex flex-col justify-center items-center min-h-[calc(100dvh-64px-124px)] text-center">
@@ -11,7 +23,14 @@ function Home() {
           I'm Umar Jimoh
         </h1>
         <p className="text-md md:text-lg mt-4">
-          Software Developer based in Nigeria, Abuja
+          <Typewriter
+            words={[text]}
+            typeSpeed={typeSpeed}
+            loop={1}
+            cursor
+            cursorBlinking
+            cursorStyle={cursorStyle}
+          />
         </p>
       </div>
     </MainLayout>
