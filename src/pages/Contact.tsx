@@ -1,9 +1,10 @@
+import ComingSoon from "@/components/ComingSoon";
 import FormLayout from "@/layouts/FormLayout";
 
 function Contact() {
   return (
     <FormLayout>
-      <div>Contact</div>
+      <ComingSoon />
     </FormLayout>
   );
 }
